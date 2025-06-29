@@ -6,6 +6,7 @@
   font-size: 1.75rem;
   border-bottom: 4px solid var(--red);
   margin-bottom: 0.5rem;
+  font-family: "Inter", sans-serif;
 }
 .intro {
   margin-bottom: 1.5rem;

@@ -9,6 +9,7 @@
   margin-left: 5%;
   font-size: 1.25rem;
   color: var(--red);
+  font-family: "Inter", sans-serif;
 }
 .jobs ul {
   list-style: none;

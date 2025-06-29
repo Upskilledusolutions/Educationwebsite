@@ -10,6 +10,8 @@
 }
 .menu li {
   cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
 }
 .upcoming {
   margin-top: 0.5rem;
@@ -18,7 +20,8 @@
   color: black;
   text-align: center;
   border-bottom: 1px solid #979797;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+  font-family: "Inter", sans-serif;
 }
 .menuItem {
   position: relative;

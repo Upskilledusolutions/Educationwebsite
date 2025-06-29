@@ -4,6 +4,7 @@
 .section h2 {
   border-bottom: 4px solid var(--red);
   margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
 }
 .grid {
   display: flex;

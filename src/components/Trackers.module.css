@@ -7,6 +7,7 @@
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
   border-bottom: 4px solid var(--red);
+  font-family: "Inter", sans-serif;
 }
 .cards {
   display: flex;

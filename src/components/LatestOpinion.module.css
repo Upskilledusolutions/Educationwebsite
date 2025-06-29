@@ -5,6 +5,7 @@
   border-bottom: 4px solid var(--red);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
 }
 .grid {
   display: grid;
