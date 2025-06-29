@@ -1,0 +1,32 @@
+.jobs {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+.jobs h2 {
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  font-size: 1.25rem;
+  color: var(--red);
+}
+.jobs ul {
+  list-style: none;
+  padding: 0 5%;
+  height: 400px;
+  overflow-y: scroll;
+}
+.jobs li {
+  margin-bottom: 1rem;
+}
+.jobs a {
+  text-decoration: none;
+  color: inherit;
+}
+.title {
+  font-weight: bold;
+}
+.institution {
+  font-size: 0.875rem;
+  color: #555;
+}

@@ -1,0 +1,17 @@
+.news {
+  margin-bottom: 2rem;
+}
+.news h2 {
+  border-bottom: 4px solid var(--red);
+  padding-bottom: 0.5rem;
+}
+.news article {
+  margin-top: 1rem;
+}
+.news h3, .news h4 {
+  margin: 0.5rem 0;
+}
+.news p {
+  margin: 0.25rem 0;
+  color: #333;
+}

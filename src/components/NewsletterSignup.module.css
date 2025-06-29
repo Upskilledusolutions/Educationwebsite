@@ -1,0 +1,49 @@
+.section {
+  padding: 2rem 10%;
+}
+.container {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.container h3 {
+  font-size: 1.25rem;
+  color: #003366;
+  margin: 0;
+}
+.container p {
+  flex: 2;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+.form {
+  flex: 3;
+  display: flex;
+  gap: 0.5rem;
+}
+.form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form button {
+  background: #0033cc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media (max-width: 1100px) {
+    .form {
+        flex-direction: column;
+    }
+}

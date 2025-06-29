@@ -1,0 +1,61 @@
+.section {
+  padding: 2rem 10%;
+}
+.section h2 {
+  border-bottom: 4px solid var(--red);
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.category {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+  margin: 0.75rem 1rem 0;
+}
+.card h3 {
+  margin: 0.25rem 1rem;
+  color: var(--red);
+}
+.meta {
+  font-size: 0.875rem;
+  color: #444;
+  margin: 0 1rem 1rem;
+}
+.advertisement {
+  text-align: center;
+  padding: 1rem;
+}
+.advertisement span {
+  font-size: 0.75rem;
+  color: #888;
+}
+.advertisement img {
+  width: 100%;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+.adText {
+  font-size: 0.75rem;
+  color: #b30;
+  margin: 0.5rem 0;
+}
+.advertisement h4 {
+  margin: 0.5rem 0;
+}
+.advertisement p:last-child {
+  font-size: 0.875rem;
+}

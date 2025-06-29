@@ -1,0 +1,14 @@
+:root {
+  --red: rgb(237, 28, 36);
+  --darkred: rgb(189, 17, 23);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+

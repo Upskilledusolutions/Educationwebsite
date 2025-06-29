@@ -1,0 +1,50 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 10%;
+  flex-wrap: wrap;
+}
+.left {
+  flex: 3;
+}
+.left h2 {
+  border-bottom: 4px solid var(--red);
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card p {
+  padding: 0.5rem;
+  font-weight: 600;
+  color: var(--red);
+}
+.right {
+  flex: 1;
+  text-align: center;
+  min-width: 260px;
+}
+.adlabel {
+  font-size: 0.75rem;
+  color: #888;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.adimg {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 4px;
+}
