@@ -1,0 +1,28 @@
+.widget {
+  background: #f0f4ff;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.widget h5 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.widget li {
+  margin-bottom: 0.5rem;
+}
+.widget a {
+  text-decoration: none;
+  color: #0066ff;
+  font-size: 0.9rem;
+}
+.viewAll {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.accordions {
+  margin-top: 1rem;
+}
+
+.noResults {
+  color: #888;
+  font-style: italic;
+}

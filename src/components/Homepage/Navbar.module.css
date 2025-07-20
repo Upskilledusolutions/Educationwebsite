@@ -51,6 +51,12 @@
 .dropdown li:hover {
   background: var(--darkred);
 }
+.link{
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
 
 @media (max-width: 1100px) {
 .upcoming{

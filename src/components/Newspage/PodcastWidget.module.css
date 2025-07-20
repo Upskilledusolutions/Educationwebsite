@@ -1,0 +1,17 @@
+.widget {
+  background: #fff3e0;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+.widget h5 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: #111;
+}
+.listenBtn {
+  font-size: 0.85rem;
+  color: #0066ff;
+  text-decoration: none;
+  font-weight: bold;
+}

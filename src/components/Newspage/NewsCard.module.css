@@ -1,0 +1,5 @@
+.card { display: block; text-decoration: none; color: inherit; }
+.card img { width: 100%; height: auto; border-radius: 4px; }
+.large img { border-radius: 6px; }
+.card h3 { margin: 0.5rem 0; font-size: 1rem; }
+.large h3 { font-size: 1.25rem; }

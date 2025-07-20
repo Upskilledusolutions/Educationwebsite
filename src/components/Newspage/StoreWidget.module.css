@@ -1,0 +1,25 @@
+.widget {
+  display: flex;
+  text-decoration: none;
+  background: #f5f8fd;
+  border-radius: 4px;
+  overflow: hidden;
+  align-items: center;
+}
+.widget img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.info {
+  padding: 0.5rem;
+}
+.info h5 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #111;
+}
+.info span {
+  font-size: 0.85rem;
+  color: #0066ff;
+}

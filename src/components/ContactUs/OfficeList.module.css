@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1rem;
+}
+.city {
+  font-size: 1.125rem;
+  margin: 0 0 0.5rem;
+}
+.address {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+.contact {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.contact a {
+  color: #0066ff;
+  text-decoration: none;
+}

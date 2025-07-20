@@ -1,0 +1,46 @@
+.section {
+  margin-top: 3rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  display: block;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.title {
+  margin: 0.75rem 1rem 0.5rem;
+  font-size: 1rem;
+  color: #0048e5;
+}
+
+.subtitle {
+  margin: 0 1rem 1rem;
+  font-size: 0.85rem;
+  color: #555;
+}

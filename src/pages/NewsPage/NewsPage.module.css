@@ -1,0 +1,5 @@
+.page { padding: 2rem 10%; font-family: 'Segoe UI', sans-serif; }
+.subhead { margin-bottom: 2rem; color: #555; }
+.main { display: flex; gap: 2rem; }
+.leftCol { flex: 2; }
+.sidebarCol { flex: 1; }

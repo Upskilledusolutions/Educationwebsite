@@ -1,29 +1,44 @@
 import React, { useState } from 'react';
+
 import styles from './Navbar.module.css';
+import Link from 'next/link';
 
 export default function Navbar() {
   const sections = [
     'Sections',
     'Topics',
     'Magazine',
-    'Newsletters',
     'Events',
     'Ask Chron',
-    'Store',
-    'Jobs'
   ];
 
   const [openDropdown, setOpenDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // Dropdown items need labels and paths
   const dropdownContent = {
-    Sections: ['Section 1', 'Section 2', 'Section 3'],
-    Topics: ['Topic A', 'Topic B', 'Topic C'],
-    Magazine: ['Issue 1', 'Issue 2'],
-    Events: ['Event 1', 'Event 2'],
-    'Ask Chron': ['FAQ', 'Contact'],
-    Store: ['Books', 'Merch'],
-    Jobs: ['Job Board', 'Post a Job']
+    Sections: [
+      { label: 'Section 1', path: '/NewsPage' },
+      { label: 'Section 2', path: '/NewsPage' },
+      { label: 'Section 3', path: '/NewsPage' },
+    ],
+    Topics: [
+      { label: 'Topic A', path: '/Topics' },
+      { label: 'Topic B', path: '/Topics' },
+      { label: 'Topic C', path: '/Topics' },
+    ],
+    Magazine: [
+      { label: 'Issue 1', path: '/Issues' },
+      { label: 'Issue 2', path: '/Issues' },
+    ],
+    Events: [
+      { label: 'Event 1', path: '/Events' },
+      { label: 'Event 2', path: '/Events' },
+    ],
+    'Ask Chron': [
+      { label: 'FAQ', path: '/Faq' },
+      { label: 'Contact', path: '/Contact' },
+    ],
   };
 
   // Helper for mobile dropdown toggle
@@ -39,11 +54,12 @@ export default function Navbar() {
         <span />
         <span />
       </div>
+
       <ul
         className={`${styles.menu} ${mobileMenuOpen ? styles.menuOpen : ''}`}
         onMouseLeave={() => setOpenDropdown(null)}
       >
-         {mobileMenuOpen && (
+        {mobileMenuOpen && (
           <li
             className={styles.closeButton}
             onClick={() => {
@@ -54,7 +70,8 @@ export default function Navbar() {
             &times;
           </li>
         )}
-        {sections.map(item => (
+
+        {sections.map((item) => (
           <li
             key={item}
             className={styles.menuItem}
@@ -72,11 +89,15 @@ export default function Navbar() {
             >
               {item} {item !== 'Newsletters' && <span className={styles.arrow}>▾</span>}
             </div>
+
+            {/* Render dropdown links with <Link> */}
             {item !== 'Newsletters' && openDropdown === item && (
               <div className={styles.dropdown}>
                 <ul>
-                  {(dropdownContent[item] || []).map(subItem => (
-                    <li key={subItem}>{subItem}</li>
+                  {dropdownContent[item]?.map(({ label, path }) => (
+                    <li key={label} className={styles.dropdownItem}>
+                      <Link className={styles.link} href={path}>{label}</Link>
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -84,6 +105,7 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
+
       <div className={styles.upcoming}>
         Upcoming Events: College Advising | Serving Higher Ed | Chronicle Festival 2025
       </div>

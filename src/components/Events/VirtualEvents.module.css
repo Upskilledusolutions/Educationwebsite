@@ -1,0 +1,112 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 3rem 25%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.subhead {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.cardImage {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 1rem;
+  flex: 1;
+}
+
+.cardTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #0048e5;
+}
+
+.cardDate {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.cardDesc {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.webinarCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.webinarCard:hover {
+  transform: translateY(-4px);
+}
+
+.webinarImage {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.webinarTitle {
+  margin: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  color: #111;
+}
